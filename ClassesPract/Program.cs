@@ -6,31 +6,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Dictionary<string, int> dictionary = new Dictionary<string, int>
+        try
         {
-            {"one", 1},
-            {"two", 2},
-            {"three", 3},
-            {"four", 4},
-            {"five", 5},
-            {"six", 6},
-            {"seven",7},
-            {"eight", 8},
-            {"nine", 9},
-            {"zero", 0}
-        };
-        
-        Console.WriteLine("Write word that means the figure fromn 0 - 9:");
-        string input = Console.ReadLine().ToLower();
-
-        if (dictionary.ContainsKey(input))
-        {
-            int number = dictionary[input];
-            Console.WriteLine($"Number: {number}");
+            Passport passport = new Passport("John Doe", "123456", "2021-01-01");
+            Console.WriteLine($"Full Name: {passport.FullName}");
+            Console.WriteLine($"Passport Number: {passport.PassportNumber}");
+            Console.WriteLine($"Date of Issue: {passport.DateOfIssue}");
         }
-        else
+        catch (ArgumentException ex)
         {
-            Console.WriteLine("Wrong input");
+            Console.WriteLine($"Error: {ex.Message}");
         }
     }
 }

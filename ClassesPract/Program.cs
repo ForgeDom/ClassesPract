@@ -4,17 +4,17 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter array of numbers from 0 to 9:");
+        Console.WriteLine("Enter number from 0 and 1:");
         string input = Console.ReadLine();
 
         try
         {
-            int number = Convert.ToInt32(input);
-            Console.WriteLine($"Converted number: {number}");
+            int result = Convert.ToInt32(input, 2);
+            Console.WriteLine($"The decimal result is: {result}");
         }
         catch (FormatException)
         {
-            Console.WriteLine("Input is not a number");
+            Console.WriteLine("Invalid number");
         }
         catch (OverflowException)
         {

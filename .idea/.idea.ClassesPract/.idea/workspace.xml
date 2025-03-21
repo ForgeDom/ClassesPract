@@ -8,6 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="256ca503-92a0-4726-a57f-87629ec484da" name="Changes" comment="+">
+      <change afterPath="$PROJECT_DIR$/ClassesPract/Class/Class.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClassesPract/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClassesPract/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassesPract/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClassesPract/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lab/ex1" />
+        <entry key="$PROJECT_DIR$" value="lab/ex2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,13 +57,14 @@
     ".NET Project.ClassesPract.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "lab/ex2",
+    "git-widget-placeholder": "lab/ex3",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.customizations",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -93,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742543113150</updated>
-      <workItem from="1742543114379" duration="1167000" />
+      <workItem from="1742543114379" duration="2722000" />
     </task>
     <task id="LOCAL-00001" summary="+">
       <option name="closed" value="true" />
@@ -119,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742544067400</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+">
+      <option name="closed" value="true" />
+      <created>1742545753696</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742545753696</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
